@@ -4,8 +4,8 @@ from flask import Flask, request, jsonify
 app = Flask(__name__)
 
 # Vervang dit met jouw gegevens
-BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
-CHAT_ID = "YOUR_CHAT_ID"
+BOT_TOKEN = "7815273993:AAHrKyyzFd7PZ013XGrYyczc7kVK7skRDCI"
+CHAT_ID = "7329049989"
 
 @app.route("/webhook", methods=["POST"])
 def webhook():
